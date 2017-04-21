@@ -8297,8 +8297,6 @@ ADR lines can be set if multiple multiplexers are needed</text>
 <text x="467.36" y="71.12" size="3.048" layer="97" font="vector" ratio="12">5: 2.8V Bus</text>
 <text x="467.36" y="99.06" size="3.048" layer="97" font="vector" ratio="12">6: 3.3V Bus</text>
 <text x="467.36" y="127" size="3.048" layer="97" font="vector" ratio="12">7: 3.3V Bus</text>
-<text x="129.54" y="-17.78" size="1.27" layer="97" align="center">https://www.digikey.com/product-detail/en/rohm-semiconductor/BU6655NUX-TR/BU6655NUXCT-ND/4626053</text>
-<text x="129.54" y="-15.24" size="1.27" layer="97" align="center">https://www.digikey.com/product-detail/en/microchip-technology/MIC5504-2.8YM5-TR/576-4763-1-ND/4864027</text>
 <text x="132.08" y="177.8" size="3.048" layer="97" font="vector" ratio="12" align="center">Power</text>
 <text x="66.04" y="149.86" size="1.778" layer="97" align="center">By default 3.3V is provided by master</text>
 <text x="393.7" y="185.42" size="1.778" layer="97" align="center">Provides power and data</text>
