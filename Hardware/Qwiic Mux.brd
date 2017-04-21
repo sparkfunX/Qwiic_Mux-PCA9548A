@@ -245,12 +245,12 @@ I C Mux</text>
 <text x="24.257" y="2.54" size="1.016" layer="21" font="vector" ratio="15" align="center">2.8V</text>
 <text x="9.398" y="30.607" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center">3.3V</text>
 <text x="9.398" y="20.447" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center">2.8V</text>
-<text x="9.398" y="10.287" size="1.27" layer="21" font="vector" ratio="15" rot="SR90" align="center">5V</text>
+<text x="9.398" y="10.287" size="1.27" layer="21" font="vector" ratio="15" rot="SR90" align="center">VIN</text>
 <text x="36.195" y="39.37" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">3.3V</text>
 <text x="23.749" y="52.07" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">3.3V</text>
 <text x="17.272" y="52.07" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">5V</text>
 <text x="20.193" y="50.292" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">VIN SEL</text>
-<text x="31.242" y="10.033" size="1.27" layer="21" font="vector" ratio="15" rot="SR270" align="center">5V</text>
+<text x="31.242" y="10.033" size="1.27" layer="21" font="vector" ratio="15" rot="SR270" align="center">VIN</text>
 <text x="31.242" y="20.193" size="1.27" layer="21" font="vector" ratio="15" rot="SR270" align="center">2.8V</text>
 <text x="31.242" y="30.353" size="1.27" layer="21" font="vector" ratio="15" rot="SR270" align="center">3.3V</text>
 <text x="31.242" y="40.513" size="1.27" layer="21" font="vector" ratio="15" rot="SR270" align="center">3.3V</text>
@@ -304,11 +304,11 @@ I C Mux</text>
 <text x="36.195" y="11.43" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">SDA4</text>
 <text x="36.195" y="13.97" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">SCL4</text>
 <text x="36.195" y="6.35" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">GND</text>
-<text x="36.195" y="8.89" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">5V</text>
+<text x="36.195" y="8.89" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">VIN</text>
 <text x="4.191" y="8.89" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">SDA3</text>
 <text x="4.191" y="6.35" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">SCL3</text>
 <text x="4.191" y="13.97" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">GND</text>
-<text x="4.191" y="11.43" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">5V</text>
+<text x="4.191" y="11.43" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">VIN</text>
 <text x="4.191" y="19.05" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">SDA2</text>
 <text x="4.191" y="16.51" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">SCL2</text>
 <text x="4.191" y="24.13" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">GND</text>
@@ -1413,6 +1413,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-DiscreteSemi">
+<description>&lt;h3&gt;SparkFun Discrete Semiconductors&lt;/h3&gt;
+This library contains diodes, optoisolators, TRIACs, MOSFETs, transistors, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SOD-323">
+<description>SOD-323 (Small Outline Diode)</description>
+<wire x1="-1.77" y1="0.625" x2="-1.77" y2="-0.625" width="0.2032" layer="21"/>
+<smd name="C" x="-1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
+<smd name="A" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.9" y1="0.625" x2="0.9" y2="0.625" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-0.625" x2="0.9" y2="-0.625" width="0.2032" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1797,14 +1824,17 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="D4" library="SparkFun-LED" package="LED-0603" value="BLUE" x="16.51" y="5.08" rot="R90">
 <attribute name="PROD_ID" value="DIO-08575" x="16.51" y="5.08" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="R23" library="SparkFun-Resistors" package="0603" value="330" x="16.51" y="8.89" rot="R270">
-<attribute name="PROD_ID" value="RES-00818" x="16.51" y="8.89" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-</element>
 <element name="R25" library="SparkFun-Resistors" package="0603" value="330" x="24.13" y="8.89" rot="R270">
 <attribute name="PROD_ID" value="RES-00818" x="24.13" y="8.89" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="R24" library="SparkFun-Resistors" package="0603" value="330" x="20.32" y="8.89" rot="R270">
 <attribute name="PROD_ID" value="RES-00818" x="20.32" y="8.89" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+</element>
+<element name="R26" library="SparkFun-Resistors" package="0603" value="1k" x="16.51" y="8.89" rot="R270">
+<attribute name="PROD_ID" value="RES-07856" x="16.51" y="8.89" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+</element>
+<element name="D3" library="SparkFun-DiscreteSemi" package="SOD-323" value="3.3V" x="18.415" y="8.89" rot="R270">
+<attribute name="PROD_ID" value="DIO-11284" x="18.415" y="8.89" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1874,9 +1904,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="C13" pad="2"/>
 <via x="24.13" y="41.91" extent="1-16" drill="0.381"/>
 <via x="20.32" y="24.13" extent="1-16" drill="0.381"/>
-<contactref element="R23" pad="1"/>
 <contactref element="R25" pad="1"/>
 <contactref element="R24" pad="1"/>
+<contactref element="D3" pad="A"/>
 </signal>
 <signal name="3.3V">
 <contactref element="J1" pad="2"/>
@@ -2590,8 +2620,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 <signal name="N$4">
 <contactref element="D4" pad="C"/>
-<contactref element="R23" pad="2"/>
-<wire x1="16.51" y1="5.957" x2="16.51" y2="8.04" width="0.1778" layer="1"/>
+<contactref element="R26" pad="2"/>
+<wire x1="16.51" y1="8.04" x2="16.51" y2="5.957" width="0.1778" layer="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="R26" pad="1"/>
+<contactref element="D3" pad="C"/>
+<wire x1="18.415" y1="10.04" x2="17.66" y2="10.04" width="0.1778" layer="1"/>
+<wire x1="17.66" y1="10.04" x2="17.36" y2="9.74" width="0.1778" layer="1"/>
+<wire x1="16.51" y1="9.74" x2="17.36" y2="9.74" width="0.1778" layer="1"/>
 </signal>
 </signals>
 <errors>
